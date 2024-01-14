@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    padding: 50px;
+    height: 130vh;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.text-analyzer {
+    gap: 20px;
+}
+
+.text-analyzer h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.text-analyzer p {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.tabs {
+    padding-bottom: 30px;
+}
+
+#btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#btn-hover:focus {
+    outline: none;
+}
+
+.tabs button {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 20%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(184, 184, 184);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.wordInput {
+    padding-bottom: 30px;
+}
+
+.wordInput input {
+    width: 90%;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.wordInput button {
+    width: 9%;
+    padding: 20px 12px 20px 12px;
+    background-color: #731EE2;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.wordInput button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.wordInput button:focus {
+    outline: none;
+}
+
+.wordInput button {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+table,
+th,
+td {
+    color: #0d7039;
+    border: 3px solid #6d6060;
+    border-collapse: collapse;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.wordInput-table {
+    margin-bottom: 30px;
+}
+
+.wordInput-data {
+    border: 1px solid #111111;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.paragraph-input textarea {
+    width: 100%;
+    padding: 10px 0px 200px 10px;
+    margin-bottom: 30px;
+    border: 1px solid #1d1d1d;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
