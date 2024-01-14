@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    padding: 50px;
+    padding: 40px;
     height: 130vh;
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -20,7 +20,6 @@ body {
 .text-analyzer h1 {
     font-size: 50px;
     font-weight: 400;
-    padding-bottom: 30px;
 }
 
 .text-analyzer p {
