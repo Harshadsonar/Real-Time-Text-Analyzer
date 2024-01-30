@@ -41,7 +41,7 @@ const TextAnalyzer = () => {
   };
 
   const updateCountWord = () => {
-    const chrs = inputText.replace(/\s/g, "").length;
+    const chrs = inputText.replace(/\s/g, "").length + 1;
     const wrd = inputText.split(/\s+/).filter((word) => word !== "").length;
     setWordData({ chr: chrs, word: wrd });
   };
